@@ -19,4 +19,5 @@ export class ListService {
   getAll(): Observable<Animal[]> {
     return this.http.get<Animal[]>(this.apiUrl);
   }
+  getItem()
 }
